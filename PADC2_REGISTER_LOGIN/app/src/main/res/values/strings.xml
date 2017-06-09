@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">BarLarLarDelivery</string>
+    <string name="app_name">Bar Lar Lar Delivery</string>
+
+    <string-array name="city_arrays">
+        <item>Yangon</item>
+        <item>Mandalay</item>
+        <item>Taunggyi</item>
+
+    </string-array>
+
+    <string name="city_prompt">Choose a city you live.</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dob">DOB</string>
+    <string name="choose_city_you_live">CityYouLive</string>
+    <string name="get_email_response_for_promotion">Get email response for promotion?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="use_for">Use for</string>
+    <string name="company">Company</string>
+    <string name="personnel">Personnel</string>
+    <string name="register">REGISTER</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="skip"><![CDATA[SKIP >>]]></string>
 </resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="phone"
+            android:hint="@string/phone_number" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/dob"
+            android:inputType="date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/choose_city_you_live" />
+
+        <Spinner
+            android:id="@+id/spn_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/city_arrays"
+            android:prompt="@string/city_prompt" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/get_email_response_for_promotion" />
+
+        <ToggleButton
+            android:id="@+id/tb_email_response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/use_for" />
+
+        <RadioGroup
+            android:id="@+id/radioStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioSingle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/company" />
+
+            <RadioButton
+                android:id="@+id/radioMarried"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personnel" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/register" />
+
+    </LinearLayout>
+</ScrollView>
